@@ -37,8 +37,9 @@ addForm.addEventListener('submit', function(e) {
     ulList.appendChild(newLi);
   }
 
-  // Clear Input
-  value = "";
+  // Clear Input Field When Adding
+  let addInput = addForm.querySelector('input');
+  addInput.value = '';
 });
 
 let hideBox = document.querySelector('#hide-books input[type="checkbox"]');
