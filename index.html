@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="favicon.png" />
+    <title>Book List</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="title">
+          <h1>Bookorama</h1>
+          <p>Books for Developers</p>
+        </div>
+        <form action="" id="filter-books">
+          <input type="search" placeholder="Search Books..." />
+        </form>
+      </header>
+      <div class="book-list">
+        <h2>Books to Read</h2>
+        <ul>
+          <li>
+            <span class="book-name">the wise man's fear</span>
+            <span class="delete">delete</span>
+          </li>
+          <li>
+            <span class="book-name">kafka on shore</span>
+            <span class="delete">delete</span>
+          </li>
+          <li>
+            <span class="book-name">the master and the margarita</span>
+            <span class="delete">delete</span>
+          </li>
+        </ul>
+        <form action="" id="hide-books">
+          <input type="checkbox" id="hide" />
+          <label for="hide">Hide All Books</label>
+        </form>
+        <form action="" id="add-book">
+          <input type="text" placeholder="Add a book..." />
+          <button>add</button>
+        </form>
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
