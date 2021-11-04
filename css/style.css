@@ -42,6 +42,12 @@ input[type="search"] {
   color: #444;
   margin-bottom: 10px;
 }
+input[type="search"]::placeholder {
+  transition: opacity 0.3s;
+}
+input[type="search"]:focus::placeholder {
+  opacity: 0;
+}
 .book-list {
   background-color: #fff;
   padding: 20px;
